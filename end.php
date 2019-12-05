@@ -10,9 +10,6 @@
     <h1>Steen Papier Schaar</h1>
     <hr>
     <?php
-        // if (!isset($_GET["Player1"]) || !isset($GET["Player2"])) {
-        //     header("Location: game.php");
-        // }
         $computer = rand(1,3);
         if ($computer == 1) {
             $pc2 = "Steen";
